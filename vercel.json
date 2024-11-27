@@ -16,12 +16,11 @@
       "dest": "/index.html"
     }
   ],
+  "framework": "vue",
+  "github": {
+    "silent": true
+  },
   "env": {
     "NODE_ENV": "production"
-  },
-  "build": {
-    "env": {
-      "VUE_APP_BUILD_MODE": "production"
-    }
   }
 }
